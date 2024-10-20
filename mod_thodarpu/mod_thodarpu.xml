@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>MOD_THODARPU_NAME</name>
+    <version>1.0.0</version>
+    <author>Kannan Naidu Venugopal</author>
+    <creationDate>19th October 2024</creationDate>
+    <description>MOD_THODARPU_DESCRIPTION</description>
+    <namespace path="src">Kn\Module\Thodarpu</namespace>
+    <files>
+        <folder module="mod_thodarpu">services</folder>
+        <folder>models</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+    <scriptfile>script.php</scriptfile>
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/modules/mod_thodarpu/models/fields">
+
+                <field
+                        name="main_contact"
+                        type="contacts"
+                        default="0"
+                        label="MOD_THODARPU_CONTACT_LABEL"
+                        description="" />
+
+            </fieldset>
+
+            <fieldset name="advanced">
+                <field
+                        name="layout"
+                        type="modulelayout"
+                        label="JFIELD_ALT_LAYOUT_LABEL"
+                        class="form-select"
+                        validate="moduleLayout"
+                />
+
+                <field
+                        name="moduleclass_sfx"
+                        type="textarea"
+                        label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                        rows="3"
+                        validate="CssIdentifier"
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+
+    <updateservers>
+        <!-- Change the URL below to match that of your own update development environment -->
+        <server type="extension" name="Thodarpu Module Updates">http://localhost/joom/updateserver/updates.xml</server>
+    </updateservers>
+
+</extension>
