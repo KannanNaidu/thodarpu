@@ -50,7 +50,7 @@
 
     <updateservers>
         <!-- Change the URL below to match that of your own update development environment -->
-        <server type="extension" name="Thodarpu Module Updates">http://localhost/joom/updateserver/updates.xml</server>
+        <server type="extension" name="Thodarpu Module Updates">https://raw.githubusercontent.com/KannanNaidu/thodarpu/refs/heads/main/updateserver/updates.xml</server>
     </updateservers>
 
 </extension>
