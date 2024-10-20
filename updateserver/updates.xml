@@ -8,7 +8,7 @@
         <client>site</client>
         <downloads>
             <downloadurl type="full" format="zip">
-                http://localhost/joom/updateserver/mod_hello-v1-1-0.zip
+                https://github.com/KannanNaidu/thodarpu/releases/download/1.0.0/mod_thodarpu-1.0.0.zip
             </downloadurl>
         </downloads>
         <tags>
