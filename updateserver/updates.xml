@@ -8,14 +8,14 @@
         <client>site</client>
         <downloads>
             <downloadurl type="full" format="zip">
-                http://localhost/joom/updateserver/mod_hello-v1-1-0.zip
+                https://github.com/KannanNaidu/thodarpu/releases/download/1.0.0/mod_thodarpu-1.0.0.zip
             </downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
         </tags>
         <infourl title="Thodarpu Module on GitHub">
-            http://localhost/joom/updateserver/mod_hello110.html
+            https://github.com/KannanNaidu/thodarpu/blob/main/README.md
         </infourl>
         <maintainer>Kannan Naidu Venugopal</maintainer>
         <maintainerurl>https://www.kannannaidu.my</maintainerurl>
